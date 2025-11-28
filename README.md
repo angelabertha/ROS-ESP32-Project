@@ -131,19 +131,15 @@ Device `/dev/ttyUSB0` tidak muncul.
   ls /dev/tty*
   ```
 ---
-## 📂 Struktur Folder Repository
-Project-ROS-Arduino/
-├── Arduino/
-│ └── main.ino
-│
-├── ros_ws/
-│ ├── src/
-│ │ └── robot_pkg/
-│ │ ├── scripts/
-│ │ └── launch/
-│ └── build/
-│
-├── banner.jpg
-└── README.md
+---
+
+### Pertanyaan & Komentar
+- Silakan buka `issue` di repositori utama untuk bertanya atau memberi masukan.
+
+<p align="center">
+  <b>✨ Terima kasih! ✨</b><br>
+</p>
 
 ---
+
+
