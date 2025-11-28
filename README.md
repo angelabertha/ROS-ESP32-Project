@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner.jpg" alt="banner.jpg" width="80%">
+  <img src="header.jpg" alt="header.jpg" width="80%">
 </p>
 
 <h1 align="center">🤖 ROS + Arduino Robot Project</h1>
