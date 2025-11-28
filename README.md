@@ -97,13 +97,13 @@ OUTPUT: angka jarak dalam cm via port COM.
 
 ## 💻 3. Persiapan Workspace PIXI
 
-### **1. Akses Folder Workspace**
+### **Akses Folder Workspace**
 
 ```bash
 cd C:\pixi_ws
 ```
 
-### **2. Aktifkan Shell PIXI**
+### **Aktifkan Shell PIXI**
 
 ```bash
 pixi shell
@@ -113,7 +113,7 @@ Promt akan berubah menjadi:
 (pixi_ros2_jazzy) PS C:\pixi_ws>
 ```
 
-### **3. Masuk ke Workspace ROS2**
+### **Masuk ke Workspace ROS2**
 
 ```bash
 cd C:\pixi_ws\ros2_ws
@@ -132,7 +132,7 @@ smart_system/
       └── __init__.py
 
 ## ⚙️ 5. Pembuatan _Publisher_ dan _Subscriber_  
-### **1. Publisher: publisher_ultrasonic.py**
+### **Publisher: publisher_ultrasonic.py**
 Membaca data dari COM (ESP32) → mem-publish ke topic ROS2 /distance.
 
 ```python
@@ -175,7 +175,7 @@ if __name__ == '__main__':
     main()
 ```
 ---
-### **2. Subscriber: subscriber_display.py**
+### **Subscriber: subscriber_display.py**
 Menampilkan nilai jarak di terminal.
 ```python
 import rclpy
@@ -228,13 +228,13 @@ colcon build
 ```
 ---
 ## 🕹️ 7. Menjalankan Node
-### **1. Menjalankan Publisher**
+### **Menjalankan Publisher**
 
 ```bash
 ros2 run smart_system publisher_ultrasonic
 ```
 
-### **2. Menjalankan Subscriber (Terminal baru)**
+### **Menjalankan Subscriber (Terminal baru)**
 
 ```bash
 pixi shell
