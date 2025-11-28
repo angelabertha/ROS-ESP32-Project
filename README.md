@@ -1,10 +1,23 @@
-![Header](header.jpg)
+<p align="center">
+  <img src="banner.jpg" alt="Project Banner" width="80%">
+</p>
 
-#🚀 ROS + Arduino Robot Project  
-Project Mata Kuliah Robotika Medis by Dila Fadilatu, Faqih, & Angela Bertha
+<h1 align="center">🤖 ROS + Arduino Robot Project</h1>
+<p align="center">
+  <i>_Project_ MK Robotika Medis!</i>
+</p>
+
+---
+## by:
+| Nama | NIM | Peran |
+|------|------|-------|
+| Dila Fadilatu | 122430135  | 
+| Faqih | 122430135 |
+| Angela Bertha | 122430137 |
 
 ---
 
+Website ini dibuat untuk mendokumentasikan 
 ## 🧩 **Apa yang dilakukan di proyek ini?**
 - Menghubungkan Arduino ke ROS menggunakan **rosserial**  
 - Mengontrol aktuator (motor/servo) dari ROS  
