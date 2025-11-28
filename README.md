@@ -131,8 +131,6 @@ Device `/dev/ttyUSB0` tidak muncul.
   ls /dev/tty*
   ```
 ---
----
-
 ### Pertanyaan & Komentar
 - Silakan buka `issue` di repositori utama untuk bertanya atau memberi masukan.
 
