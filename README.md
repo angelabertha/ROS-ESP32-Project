@@ -50,7 +50,7 @@ Diagram umum alur kerja (opsional, bisa upload gambar):
 ## 🛠️ Langkah-Langkah Pembuatan Sistem  
 *(Hardware & Software)*
 
-### 🔧 HARDWARE SETUP
+## 🔧 HARDWARE SETUP
 Silakan isi sesuai robotmu. Template contoh:
 
 - Arduino Uno / Nano / Mega  
