@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner.jpg" alt="Project Banner" width="80%">
+  <img src="banner.jpg" alt="banner.jpg" width="80%">
 </p>
 
 <h1 align="center">🤖 ROS + Arduino Robot Project</h1>
@@ -9,7 +9,7 @@
 
 ---
 ## by:
-| Nama | NIM | Peran |
+| Nama | NIM | 
 |------|------|-------|
 | Dila Fadilatu | 122430135  | 
 | Faqih | 122430135 |
