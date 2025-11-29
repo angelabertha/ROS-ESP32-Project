@@ -9,11 +9,11 @@
 
 ---
 ## 👥 Anggota Kelompok
-| Nama            | NIM        |
-|-----------------|-----------|
-| Dila Fadilatu   | 122430135 |
-| Faqih           | 122430135 |
-| Angela Bertha   | 122430137 |
+| Nama                       | NIM        |
+|----------------------------|-----------|
+| Dila Fadilatu Nisa         | 122430135 |
+| Faqih Nurul Haqqi          | 122430125 |
+| Angela Bertha M.T          | 122430137 |
 
 ---
 
