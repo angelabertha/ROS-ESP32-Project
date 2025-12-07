@@ -213,7 +213,7 @@ if __name__ == '__main__':
 ---
 
 Note: Pembuatan file publisher dan subscriber dibuat secara manual bisa menggunakan VS Code dengan Type file yaitu Python, selanjutnya file disimpan pada folder dengan struktur direktori seperti di bawah ini:
-
+```
 smart_system/
   ├── package.xml
   ├── setup.py
@@ -221,8 +221,8 @@ smart_system/
        └── __init__.py
        └── publisher_ultrasonic.py
        └── subscriber_display.py
-
-       
+```
+      
 ## 5 — Instalasi Dependency
 **Install pyserial**
 powershell
