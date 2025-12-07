@@ -260,8 +260,9 @@ pixi shell
 . install/setup.ps1
 ros2 run smart_system subscriber_display
 
-Note: Lakukan perlangkah
 ```
+Note: Lakukan perlangkah
+
 Subscriber akan menampilkan data jarak secara _real time_.
 ---
 
