@@ -36,7 +36,7 @@ Arsitektur ini memungkinkan komunikasi dua arah antara perangkat embedded dan si
 |----|----------|--------|
 | 1 | ESP32 Dev Board | 1 |
 | 2 | Sensor HC-SR04 | 1 |
-| 3 | Resistor 1.8 kΩ + 3.3 kΩ | 1 set |
+| 3 | Buzzer | 1 |
 | 4 | Breadboard | 1 |
 | 5 | Kabel jumper | Beberapa |
 | 6 | Kabel USB | 1 |
@@ -54,17 +54,14 @@ Arsitektur ini memungkinkan komunikasi dua arah antara perangkat embedded dan si
 | Echo | GPIO 4 | Lewat resistor divider |
 
 ---
-### Rangkaian Resistor Divider (Wajib untuk Echo → ESP32)
-Tujuan: menurunkan 5V Echo menjadi ~3.3V.
+### Persiapan ROS
+Sebelum melanjutkan ke langkah-langkah selanjutnya, silakan tonton dan ikuti panduan instalasi ROS dan konfigurasi awal pada video berikut:
 
-```markdown
-HC-SR04 Echo → R1 (1.8kΩ) →+→ GPIO4 ESP32
-                           |
-                           R2 (3.3kΩ)
-                           |
-                          GND
-```
+https://youtu.be/xSXrRQGWmbQ?si=iWGzqBT9VGNmRfPs
 
+video ini menjelaskan secara detail bagaimana cara menyiapkan environtment ROS di Windows agar sesuai dengan versi yang digunakan di panduan ini.
+
+---
 ### Program ESP32 (Arduino IDE)
 cpp
 ```cpp
@@ -215,6 +212,17 @@ if __name__ == '__main__':
 ```
 ---
 
+Note: Pembuatan file publisher dan subscriber dibuat secara manual bisa menggunakan VS Code dengan Type file yaitu Python, selanjutnya file disimpan pada folder dengan struktur direktori seperti di bawah ini:
+
+smart_system/
+  ├── package.xml
+  ├── setup.py
+  └── smart_system/
+       └── __init__.py
+       └── publisher_ultrasonic.py
+       └── subscriber_display.py
+
+       
 ## 5 — Instalasi Dependency
 **Install pyserial**
 powershell
@@ -247,10 +255,12 @@ ros2 run smart_system publisher_ultrasonic
 ### **Menjalankan Subscriber (Terminal baru)**
 powershell
 ```bash
-pixi shell
 cd C:\pixi_ws\ros2_ws
+pixi shell
 . install/setup.ps1
 ros2 run smart_system subscriber_display
+
+Note: Lakukan perlangkah
 ```
 Subscriber akan menampilkan data jarak secara _real time_.
 ---
