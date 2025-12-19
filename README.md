@@ -271,8 +271,6 @@ Subscriber akan menampilkan data jarak secara _real time_.
 - Tekan CTRL + C
 - Menutup terminal → otomatis mematikan node
 - Jika node macet → hentikan python.exe lewat Task Manager
-
----
 ---
 
 ## 🎥 OUTPUT & VIDEO DEMONSTRASI SISTEM
