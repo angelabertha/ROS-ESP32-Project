@@ -36,7 +36,7 @@ sensor, mikrokontroler, hingga komunikasi dengan ROS2.
 <p align="center">
   <img src="diagramblok.jpg" alt="Diagram Blok Sistem" width="85%">
 </p>
----
+
 
 # 🛠️ LANGKAH-LANGKAH PEMBUATAN SISTEM  
 
